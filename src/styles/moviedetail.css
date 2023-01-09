@@ -1,0 +1,45 @@
+.movie-detail-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 3rem;
+}
+.movie-detail-info{
+    margin-left: 2rem;
+}
+.movie-detail-info h2{
+    display: flex;
+    justify-content: space-between;
+}
+.movie-detail-info li{
+    list-style: none;
+}
+.movie-detail-info li span{
+    color: orange;
+}
+.movie-detail-info p span{
+    color: rgb(99, 182, 255);
+}
+.movie-detail-status{
+    margin:3rem 0 3rem 0
+}
+.button{
+    width: 100%;
+    display: flex;justify-content: right;
+}
+
+
+@media(max-width:900px){
+
+    .movie-detail-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .movie-detail-info{
+        width: 90%;
+    }
+}
+
+

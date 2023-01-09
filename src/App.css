@@ -1,0 +1,9 @@
+*{
+  background-color: rgb(49, 49, 49);
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -1,0 +1,16 @@
+.slider-item-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-container{
+  width: 70%;
+}
+.slider-infos{
+    margin: 3rem;
+    width: 100%;
+}   
+
+.carousel-indicators{
+    z-index: 0 !important;
+}

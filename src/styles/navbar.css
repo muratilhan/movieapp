@@ -1,0 +1,21 @@
+.navbar-container{
+    padding:1rem 0 1rem 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+    border-radius: 30px;
+}
+.navbar-container li{
+    list-style: none;
+    font-size: 24px;
+}
+.navbar-link{
+    text-decoration: none;
+    color: white;
+}
+.navbar-link:hover{
+    color: orange;
+    transition: 0.5s;
+}
